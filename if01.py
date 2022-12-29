@@ -10,5 +10,5 @@ def main(a):
         a += 1
     else: a = a
     return a
-y = main(1)
+y = int(main(1))
 print(y)
