@@ -8,4 +8,20 @@ def main(a,b,c):
     returns:
         integer: the number of negative numbers in the given numbers
     """
-    return
+    if a>0 and b>0 and c>0:
+            print('manfiy son yo\'q')
+    elif a>0 and b<0 and c>0:
+        print('1 ta')
+    elif a>0 and b<0 and c<0:
+        print('2 ta')
+    elif a>0 and b>0 and c<0:
+        print('1 ta')
+    elif a<0 and b>0 and c>0:
+        print('1 ta')
+    elif a<0 and b<0 and c>0:
+        print('2 ta')
+    elif a<0 and b<0 and c<0:
+        print('3 ta')
+    return 0
+
+y = main(-2, 4, 1)
