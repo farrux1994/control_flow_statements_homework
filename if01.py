@@ -9,6 +9,6 @@ def main(a):
     if a:
         a += 1
     else: a = a
-    return a
-y = int(main(1))
+    return int(a)
+y = main(1)
 print(y)
