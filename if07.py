@@ -12,19 +12,17 @@ def main(a):
     Returns:
         string: the message to print
     """
-    if a>0:
-        if a%2==1:
-             print('musbat toq raqam')
-    elif a>0:
-        if a%2==0:
-             print('musbat juft raqam')
-    elif a<0:
-        if a%2==1:
-             print('salbiy toq raqam')
-    elif a>0:
-        if a%2==0:
-             print('salbiy juft raqam')
-    else:
-        print('0 ga teng')
-    return 0
+    ans = ''
+    if a>0 and a%2==1:
+        ans = 'positive odd number'
+    if a>0 and a%2==0:
+        ans = 'positive even number'
+    if a<0 and a%2==1:
+        ans = 'negative odd number'
+    if a<0 and a%2==0:
+        ans = 'negative even number'
+    elif a==0:
+        ans = 'the number is zero'
+    return ans
 y = main(0)
+print(y)
