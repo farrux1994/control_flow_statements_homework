@@ -13,20 +13,22 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
+    ans = ''
     if a>0 and b>0 and c>0:
-            print('3 ta musbat son bor')
+        ans = 'there are a lot of positive numbers'
     elif a>0 and b<0 and c>0:
-        print('2 ta musbat 1 ta manfiy son bor')
+        ans = 'two are a lot of positive numbers'
     elif a>0 and b<0 and c<0:
-        print('1 ta musbat 2 ta manfiy son bor')
+        ans = 'two are a lot of negative numbers'
     elif a>0 and b>0 and c<0:
-        print('2 ta musbat 1 ta manfiy son bor')
+        ans = 'two are a lot of positive numbers'
     elif a<0 and b>0 and c>0:
-        print('2 ta ta musbat 1 ta manfiy son bor')
+        ans = 'two are a lot of positive numbers'
     elif a<0 and b<0 and c>0:
-        print('1 ta musbat 2 ta manfiy son bor')
+        ans = 'two are a lot of negative numbers'
     elif a<0 and b<0 and c<0:
-        print('musbat va manfiy son yo\'q')
-    return 0
+        ans = 'there are a lot of negative numbers'
+    return ans
 
 y = main(-2, 4, 1)
+print(y)
