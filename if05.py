@@ -10,17 +10,17 @@ def main(a,b,c):
     """
     ans = ''
     if a>0 and b<0 and c>0:
-        ans = 'one negative numbers'
+        ans = '1'
     if a>0 and b<0 and c<0:
-        ans = 'two negative numbers'
+        ans = '2'
     if a>0 and b>0 and c<0:
-        ans = 'one negative numbers'
+        ans = '1'
     if a<0 and b>0 and c>0:
-        ans = 'one negative numbers'
+        ans = '1'
     if a<0 and b<0 and c>0:
-        ans = 'two negative numbers'
+        ans = '2'
     if a<0 and b<0 and c<0:
-        ans = 'there negative numbers'
+        ans = '3'
     return ans
 
 y = main(-2, 4, 1)
