@@ -8,20 +8,22 @@ def main(a,b,c):
     returns:
         integer: the number of positive numbers in the given numbers
     """ 
+    ans = ''
     if a>0 and b>0 and c>0:
-        print('3 ta')
+        ans = 'there a, b, c'
     elif a>0 and b<0 and c>0:
-        print('2 ta')
+        ans = 'two a, c'
     elif a>0 and b<0 and c<0:
-        print('1 ta')
+        ans = 'one a'
     elif a>0 and b>0 and c<0:
-        print('2 ta')
+        ans = 'two a, c'
     elif a<0 and b>0 and c>0:
-        print('2 ta')
+        ans = 'two b, c'
     elif a<0 and b<0 and c>0:
-        print('1 ta')
+        ans = 'one c'
     elif a<0 and b<0 and c<0:
-        print('musbat son yo\'q')
-    return 0
+        ans = '0'
+    return ans
 
 y = main(-2, 4, 1)
+print(y)
