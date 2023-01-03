@@ -16,17 +16,17 @@ def main(a,b,c):
     ans = ''
     if a>0 and b>0 and c>0:
         ans = 'there are a lot of positive numbers'
-    elif a>0 and b<0 and c>0:
+    if a>0 and b<0 and c>0:
         ans = 'two are a lot of positive numbers'
-    elif a>0 and b<0 and c<0:
+    if a>0 and b<0 and c<0:
         ans = 'two are a lot of negative numbers'
-    elif a>0 and b>0 and c<0:
+    if a>0 and b>0 and c<0:
         ans = 'two are a lot of positive numbers'
-    elif a<0 and b>0 and c>0:
+    if a<0 and b>0 and c>0:
         ans = 'two are a lot of positive numbers'
-    elif a<0 and b<0 and c>0:
+    if a<0 and b<0 and c>0:
         ans = 'two are a lot of negative numbers'
-    elif a<0 and b<0 and c<0:
+    if a<0 and b<0 and c<0:
         ans = 'there are a lot of negative numbers'
     return ans
 
