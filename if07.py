@@ -12,15 +12,19 @@ def main(a):
     Returns:
         string: the message to print
     """
-    if a>0 and a%2==1:
-        print('musbat toq raqam')
-    elif a>0 and a%2==0:
-        print('musbat juft raqan')
-    if a%2==1:
-        print('toq raqam')
-    elif a!=0 and a%2==0:
-        print('juft raqan')
-    elif a==0:
+    if a>0:
+        if a%2==1:
+             print('musbat toq raqam')
+    if a>0:
+        if a%2==0:
+             print('musbat juft raqam')
+    if a<0:
+        if a%2==1:
+             print('salbiy toq raqam')
+    if a>0:
+        if a%2==0:
+             print('salbiy juft raqam')
+    if a==0:
         print('0 ga teng')
     return 0
-y = main(0)
+y = main(5)
