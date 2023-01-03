@@ -15,16 +15,16 @@ def main(a):
     if a>0:
         if a%2==1:
              print('musbat toq raqam')
-    if a>0:
+    elif a>0:
         if a%2==0:
              print('musbat juft raqam')
-    if a<0:
+    elif a<0:
         if a%2==1:
              print('salbiy toq raqam')
-    if a>0:
+    elif a>0:
         if a%2==0:
              print('salbiy juft raqam')
-    if a==0:
+    else:
         print('0 ga teng')
     return 0
-y = main(5)
+y = main(0)
